@@ -3,8 +3,8 @@ export class User {
   firstName: string;
   lastName: string;
   email: string;
-  password: string;
-  resetPasswordToken: string;
-  accountVerificationToken: string;
-  isEmailActive: boolean;
+  password?: string;
+  resetPasswordToken?: string;
+  accountVerificationToken?: string;
+  isEmailActive?: boolean;
 }
