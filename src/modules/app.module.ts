@@ -12,7 +12,6 @@ import { ImagesModule } from "./images/images.module";
 import { PaymentModule } from "./payment/payment.module";
 import { OrderItemsModule } from "./order-items/order-items.module";
 import { OrderModule } from "./order/order.module";
-import { NotificatioHookModule } from "./notificatio-hook/notificatio-hook.module";
 
 @Module({
   imports: [
@@ -39,7 +38,6 @@ import { NotificatioHookModule } from "./notificatio-hook/notificatio-hook.modul
     PaymentModule,
     OrderItemsModule,
     OrderModule,
-    NotificatioHookModule,
   ],
   controllers: [],
   providers: [AuthModule],
